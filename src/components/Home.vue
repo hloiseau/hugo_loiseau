@@ -36,9 +36,9 @@
         <h2 class="headline font-weight-bold mb-3">Projets auxquels j'ai participé</h2>
 
         <v-row justify="center">
-          <v-carousel cycle height="400" hide-delimiter-background show-arrows-on-hover>
+          <v-carousel cycle height="800" hide-delimiter-background show-arrows-on-hover>
             <v-carousel-item v-for="(project, i) in projects" :key="i">
-              <v-sheet :color="white" height="100%">
+              <v-sheet height="100%">
                 <v-row class="fill-height" align="center" justify="center">
                   <div class="display-3">{{ project.name }}</div>
                 </v-row>
@@ -49,16 +49,21 @@
       </v-col>
 
       <v-col class="mb-5" cols="12">
-        <h2 class="headline font-weight-bold mb-3">Ecosystem</h2>
-
+        <h2 class="headline font-weight-bold mb-3">Ce que je sais faire</h2>
         <v-row justify="center">
-          <a
-            v-for="(eco, i) in ecosystem"
-            :key="i"
-            :href="eco.href"
-            class="subheading mx-3"
-            target="_blank"
-          >{{ eco.text }}</a>
+          <v-card v-for="(skill, i) in techSkills()" :key="i">
+            <v-card-title class="subheading mx-3" target="_blank">{{ skill.name }}</v-card-title>
+            <v-card-subtitle>{{skill.years}} an(s), {{skill.projects}} projet(s)</v-card-subtitle>
+          </v-card>
+        </v-row>
+      </v-col>
+      <v-col class="mb-5" cols="12">
+        <h2 class="headline font-weight-bold mb-3">Je suis</h2>
+        <v-row justify="center">
+          <v-card v-for="(skill, i) in humanSkills()" :key="i">
+            <v-card-title class="subheading mx-3" target="_blank">{{ skill.name }}</v-card-title>
+            <v-card-subtitle></v-card-subtitle>
+          </v-card>
         </v-row>
       </v-col>
     </v-row>
@@ -69,6 +74,8 @@
 import { Component, Vue } from "vue-property-decorator";
 import { mdiCardAccountMail, mdiCardAccountPhone } from "@mdi/js";
 import Project from "../store/Project";
+import Skills from "../store/Skills";
+
 @Component
 export default class Home extends Vue {
   public projects: Array<Project> = [
@@ -108,5 +115,90 @@ export default class Home extends Vue {
       pro: false
     }
   ];
+  public skills: Array<Skills> = [
+    {
+      name: "Ambitieux",
+      id: 0,
+      tech: false,
+      years: null,
+      projects: null
+    },
+    {
+      name: "Autonome",
+      id: 1,
+      tech: false,
+      years: null,
+      projects: null
+    },
+    {
+      name: "Orateur",
+      id: 2,
+      tech: false,
+      years: null,
+      projects: null
+    },
+    {
+      name: "Force de proposition",
+      id: 3,
+      tech: false,
+      years: null,
+      projects: null
+    },
+
+    {
+      name: "Vue.js",
+      id: 5,
+      tech: true,
+      years: 2,
+      projects: 3
+    },
+    {
+      name: "C#/ASP.NET CORE",
+      id: 6,
+      tech: true,
+      years: 3,
+      projects: 4
+    },
+    {
+      name: "JAVA/KOTLIN Android",
+      id: 7,
+      tech: true,
+      years: 1,
+      projects: 1
+    },
+    {
+      name: "Développement web",
+      id: 8,
+      tech: true,
+      years: 5,
+      projects: 6
+    },
+    {
+      name: "WPF, développement d’application Lourde",
+      id: 9,
+      tech: true,
+      years: 1,
+      projects: 1
+    },
+    {
+      name: "Gestion de projet",
+      id: 4,
+      tech: true,
+      years: 2,
+      projects: 3
+    }
+  ];
+  private schoolProject(): Array<Project> {
+    return this.projects.filter((element: Project) => !element.pro);
+  }
+  private workProject(): Array<Project> {
+    return this.projects.filter((element: Project) => element.pro);
+  }
+  private humanSkills(): Array<Skills> {
+    return this.skills.filter((element: Skills) => !element.tech);
+  }
+  private techSkills(): Array<Skills> {
+    return this.skills.filter((element: Skills) => element.tech);
+  }
 }
 </script>

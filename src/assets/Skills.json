@@ -1,0 +1,92 @@
+[{
+        "name": "Ambitieux",
+        "def": "Ambition: Désir d'accomplir, de réaliser une grande chose, en y engageant sa fierté, son honneur.",
+        "links": [1, 2, 5],
+        "pars": [{
+                "title": "L’ambition se trouve partout dans mon milieu professionnelle.",
+                "par": "C’est une qualité essentielle pour pouvoir intégrer la prestigieuse institution qu’est l’INSEP, c’est vrai pour les sportifs mais également pour ce comme moi, qui sont engager pour les aider. Les sportifs ont besoin de beaucoup d’ambition pour arriver au plus haut niveaux : aux jeux olympiques, aux mondiaux ou même au niveau national."
+            },
+            {
+                "title": "Le Cahier Numérique de l’Entraineur, un projet fou.",
+                "par": " Dans mon équipe aussi, on a beaucoup d’ambition, avec une équipe de seulement trois développeurs, nous avons décidé de nous lancez dans une aventure de deux ans en créant le Cahier Numérique de l’Entraineur. C’est une suite d’application regroupant trois parties distincte : une création visuel d’exercice, un éditeur de cycle d’entrainement et un gestionnaire de planification. La suite d’application se décline en une version web et une version Windows. C’est le projet le plus ambitieux, techniquement parlant, auquel j’ai pu participer, il est pensé pour permettre de moderniser l’entrainement sportif quel que soit le niveau, cette application doit pouvoir être utiliser par le petit club de foot du coin comme par l’équipe de France de foot, pour les sports individuel ou d’équipe. Le projet a également une portée de recherche puisqu’il est censé permettre de récolter de la donnée pour nos équipe de chercheur, ça leur permettra d’affiner leurs algorithme de détection du dopage ou même de prévision des blessures ! J’espère que ce projet pourra aider les entraineurs, les chercheurs et bien sur les sportifs dans leur poursuite de la performance."
+            },
+            {
+                "title": "L’agilité et Jira ou comment tout réorganiser.",
+                "par": " J’ai également fait preuve d’ambition dans la mise en place de Jira et de l’agilité au seins de nos équipes. Moi et un petit groupe de collègues avions besoins d’une meilleurs organisations au seins de nos projets, nous manquions d’outils et de formations. J’ai pris sur moi de convaincre mon responsable et ses supérieurs de nous délivrer un budget d’une dizaine de milliers d’euros afin de mettre en place Jira server ainsi que Jira service desk et Confluence mais aussi pour engager un processus de formations à l’agilité. J’ai obtenu le budget demandé et les équipes ont pu profiter d’outils et d’un accompagnement personnalisé. Je suis toujours responsable de la mise en œuvre et de l’organisation de Jira et nos équipes ont beaucoup moins de difficulté pour travailler ensemble."
+            },
+            {
+                "title": "Mais Pourquoi ?",
+                "par": "L’ambition est un trait important de ma personnalité, ce trait caractérise la plupart de mes choix, qu’ils soient personnels ou professionnels. L’idée de travailler pour l’INSEP un tel fleuron du sport français à un salaire quatre fois inférieur à celui qu’on m’avait proposé auparavant, dans des projets toujours plus ambitieux et toujours plus intéressants, tout ça dans la perspective de la performance sportive, m’a convaincue et je n’ai pas regretté ce choix depuis."
+            }
+        ],
+        "id": 0,
+        "tech": false,
+        "years": null,
+        "projects": null
+    }, {
+        "name": "Autonome",
+        "id": 1,
+        "links": [0, 4, 5],
+        "tech": false,
+        "years": null,
+        "projects": null
+    }, {
+        "name": "Orateur",
+        "id": 2,
+        "links": [2, 3, 5, 6],
+        "tech": false,
+        "years": null,
+        "projects": null
+    }, {
+        "name": "Force de proposition",
+        "id": 3,
+        "links": [0, 1, 2, 6],
+        "tech": false,
+        "years": null,
+        "projects": null
+    },
+    {
+        "name": "Gestion de projet",
+        "id": 4,
+        "links": [1, 2, 4],
+        "tech": true,
+        "years": 2,
+        "projects": 3
+    },
+    {
+        "name": "Javascript",
+        "id": 5,
+        "links": [1, 3, 4],
+        "tech": true,
+        "years": 2,
+        "projects": 3
+    }, {
+        "name": "C#",
+        "id": 6,
+        "links": [1, 3, 4, 6],
+        "tech": true,
+        "years": 3,
+        "projects": 4
+    }, {
+        "name": "JAVA/KOTLIN Android",
+        "id": 7,
+        "links": [4],
+        "tech": true,
+        "years": 1,
+        "projects": 1
+    }, {
+        "name": "Développement web",
+        "id": 8,
+        "links": [0, 1, 3, 5],
+        "tech": true,
+        "years": 5,
+        "projects": 6
+    }, {
+        "name": "Développement d’application lourde",
+        "id": 9,
+        "links": [1, 6],
+        "tech": true,
+        "years": 1,
+        "projects": 1
+    }
+]
