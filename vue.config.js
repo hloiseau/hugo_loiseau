@@ -1,6 +1,6 @@
 module.exports = {
   transpileDependencies: ["vuetify"],
-  outputDir: "../hloiseau.github.io",
+  outputDir: "./hloiseau.github.io",
 
   chainWebpack: config => {
     config.module

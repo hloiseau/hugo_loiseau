@@ -1,17 +1,17 @@
 <template>
   <v-app>
-    <v-parallax
-      src="https://www.archiliste.fr/sites/default/files/projets/aconcept-architectes/renovation-de-la-halle-maigrot-insep/halle-maigrot-paris-00.jpg"
+   <v-parallax
+      src="https://www.itl.cat/pngfile/big/153-1533869_ipad-retina-source-code.jpg"
       height="800"
     >
       <v-row align="center" justify="center">
         <v-col class="text-center" cols="12">
-          <h1 class="display-1 font-weight-thin mb-4">Hugo Loiseau</h1>
-          <h3 class="subheading">Dev Fullstack et Chef de Projet</h3>
+          <h1 class="display-4 mb-4">Hugo Loiseau</h1>
+          <h3 class="subheading"></h3>
         </v-col>
       </v-row>
     </v-parallax>
-    <v-app-bar class="d-none d-sm-block" scroll-threshold="50" fixed inverted-scroll dark>
+    <v-app-bar class="d-none d-sm-block"  fixed  dark>
       <v-toolbar-title style="cursor:pointer" @click="toHome">Hugo Loiseau</v-toolbar-title>
 
       <v-spacer></v-spacer>
