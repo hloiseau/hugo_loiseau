@@ -1,92 +1,109 @@
-[{
-        "name": "Ambitieux",
-        "def": "Ambition: Désir d'accomplir, de réaliser une grande chose, en y engageant sa fierté, son honneur.",
-        "links": [1, 2, 5],
-        "pars": [{
-                "title": "L’ambition se trouve partout dans mon milieu professionnelle.",
-                "par": "C’est une qualité essentielle pour pouvoir intégrer la prestigieuse institution qu’est l’INSEP, c’est vrai pour les sportifs mais également pour ce comme moi, qui sont engager pour les aider. Les sportifs ont besoin de beaucoup d’ambition pour arriver au plus haut niveaux : aux jeux olympiques, aux mondiaux ou même au niveau national."
-            },
-            {
-                "title": "Le Cahier Numérique de l’Entraineur, un projet fou.",
-                "par": " Dans mon équipe aussi, on a beaucoup d’ambition, avec une équipe de seulement trois développeurs, nous avons décidé de nous lancez dans une aventure de deux ans en créant le Cahier Numérique de l’Entraineur. C’est une suite d’application regroupant trois parties distincte : une création visuel d’exercice, un éditeur de cycle d’entrainement et un gestionnaire de planification. La suite d’application se décline en une version web et une version Windows. C’est le projet le plus ambitieux, techniquement parlant, auquel j’ai pu participer, il est pensé pour permettre de moderniser l’entrainement sportif quel que soit le niveau, cette application doit pouvoir être utiliser par le petit club de foot du coin comme par l’équipe de France de foot, pour les sports individuel ou d’équipe. Le projet a également une portée de recherche puisqu’il est censé permettre de récolter de la donnée pour nos équipe de chercheur, ça leur permettra d’affiner leurs algorithme de détection du dopage ou même de prévision des blessures ! J’espère que ce projet pourra aider les entraineurs, les chercheurs et bien sur les sportifs dans leur poursuite de la performance."
-            },
-            {
-                "title": "L’agilité et Jira ou comment tout réorganiser.",
-                "par": " J’ai également fait preuve d’ambition dans la mise en place de Jira et de l’agilité au seins de nos équipes. Moi et un petit groupe de collègues avions besoins d’une meilleurs organisations au seins de nos projets, nous manquions d’outils et de formations. J’ai pris sur moi de convaincre mon responsable et ses supérieurs de nous délivrer un budget d’une dizaine de milliers d’euros afin de mettre en place Jira server ainsi que Jira service desk et Confluence mais aussi pour engager un processus de formations à l’agilité. J’ai obtenu le budget demandé et les équipes ont pu profiter d’outils et d’un accompagnement personnalisé. Je suis toujours responsable de la mise en œuvre et de l’organisation de Jira et nos équipes ont beaucoup moins de difficulté pour travailler ensemble."
-            },
-            {
-                "title": "Mais Pourquoi ?",
-                "par": "L’ambition est un trait important de ma personnalité, ce trait caractérise la plupart de mes choix, qu’ils soient personnels ou professionnels. L’idée de travailler pour l’INSEP un tel fleuron du sport français à un salaire quatre fois inférieur à celui qu’on m’avait proposé auparavant, dans des projets toujours plus ambitieux et toujours plus intéressants, tout ça dans la perspective de la performance sportive, m’a convaincue et je n’ai pas regretté ce choix depuis."
-            }
-        ],
-        "id": 0,
-        "tech": false,
-        "years": null,
-        "projects": null
-    }, {
-        "name": "Autonome",
-        "id": 1,
-        "links": [0, 4, 5],
-        "tech": false,
-        "years": null,
-        "projects": null
-    }, {
-        "name": "Orateur",
-        "id": 2,
-        "links": [2, 3, 5, 6],
-        "tech": false,
-        "years": null,
-        "projects": null
-    }, {
-        "name": "Force de proposition",
-        "id": 3,
-        "links": [0, 1, 2, 6],
-        "tech": false,
-        "years": null,
-        "projects": null
-    },
-    {
-        "name": "Gestion de projet",
-        "id": 4,
-        "links": [1, 2, 4],
-        "tech": true,
-        "years": 2,
-        "projects": 3
-    },
-    {
-        "name": "Javascript",
-        "id": 5,
-        "links": [1, 3, 4],
-        "tech": true,
-        "years": 2,
-        "projects": 3
-    }, {
-        "name": "C#",
-        "id": 6,
-        "links": [1, 3, 4, 6],
-        "tech": true,
-        "years": 3,
-        "projects": 4
-    }, {
-        "name": "JAVA/KOTLIN Android",
-        "id": 7,
-        "links": [4],
-        "tech": true,
-        "years": 1,
-        "projects": 1
-    }, {
-        "name": "Développement web",
-        "id": 8,
-        "links": [0, 1, 3, 5],
-        "tech": true,
-        "years": 5,
-        "projects": 6
-    }, {
-        "name": "Développement d’application lourde",
-        "id": 9,
-        "links": [1, 6],
-        "tech": true,
-        "years": 1,
-        "projects": 1
-    }
+[
+  {
+    "name": "Ambitieux",
+    "def": "Ambition: Désir d'accomplir, de réaliser une grande chose, en y engageant sa fierté, son honneur.",
+    "links": [1, 3, 4],
+    "pars": [
+      {
+        "title": "L’ambition se trouve partout dans mon milieu professionnel",
+        "par": "C’est une qualité essentielle pour intégrer la prestigieuse institution qu’est l’INSEP. C’est vrai pour les sportifs mais également pour ceux, comme moi, qui sont engagé pour les aider."
+      },
+      {
+        "title": "Le Cahier Numérique de l’Entraineur, un projet fou",
+        "par": " Dans mon équipe aussi, nous avions beaucoup d’ambition, avec seulement trois développeurs, nous avons créé le Cahier Numérique de l’Entraineur. C’est une suite d’application regroupant trois parties distinctes : une création visuelle d’exercice, un éditeur de cycle d’entrainement et un gestionnaire de planification. La suite d’application est développée parallèlement en web et en WPF (pour Windows uniquement). C’est le projet le plus ambitieux, techniquement parlant, auquel j’ai pu participer, il a été pensé pour permettre de moderniser l’entrainement sportif quel que soit le niveau. Cette application doit pouvoir être utiliser par le petit club de foot du coin comme par l’équipe de France de Handball, pour les sports individuels ou d’équipe. Le projet a également une portée de recherche puisqu’il est censé permettre de récolter de la donnée pour permettre aux chercheurs, d’affiner leurs algorithmes de détection du dopage ou même de prévision des blessures ! J’espère que ce projet pourra aider les entraineurs, les chercheurs et bien sur les sportifs dans leur poursuite de la performance."
+      },
+      {
+        "title": "L’agilité et Jira ou comment tout réorganiser",
+        "par": " J’ai également fait preuve d’ambition dans la mise en place de Jira et de l’agilité au sein de nos équipes. Avec un petit groupe de collègues, nous avions besoins d’une meilleure organisation au sein de nos projets, nous manquions d’outils et de formations. J’ai pris sur moi de convaincre mon responsable et ses supérieurs de nous délivrer un budget d’une dizaine de milliers d’euros afin de mettre en place <b>Jira server</b> ainsi que <b>Jira service desk</b> et <b>Confluence</b> mais aussi pour engager un processus de formations à l’agilité. J’ai obtenu le budget demandé et les équipes ont pu profiter d’outils et d’un accompagnement personnalisé. "
+      },
+      {
+        "title": "Mais Pourquoi ?",
+        "par": "L’ambition est un trait important de ma personnalité, ce trait caractérise la plupart de mes choix, qu’ils soient personnels ou professionnels. "
+      }
+    ],
+    "id": 0,
+    "tech": false,
+    "years": null,
+    "projects": null
+  },
+  {
+    "name": "Autodidacte",
+    "id": 1,
+    "pars": [
+      {
+        "title": "Une auto-formation qui commence très tôt",
+        "par": "A l’âge de 10 ans, j’ai eu la chance de découvrir le <b>site du zéro</b>, désormais nommé <b>Open Classroom</b>. J’ai pu apprendre la programmation en <b>C</b> en utilisant <b>Code Blocks</b>. En suivant les tutoriaux du site, j’essayais de développer mes propres petits jeux. Je rêvais, à l’époque, de devenir développeur de jeux vidéo."
+      },
+      {
+        "title": "Ma découverte du Java",
+        "par": "Au lycée, j’ai eu l’occasion de choisir la spécialité <b>Science du Numérique</b>, où une fois par semaine, on nous faisait découvrir le <b>Java</b>. Pour le bac, on m’a demandé de réaliser un projet et de le présenter devant un jury. Plein d’ambition, j’ai décidé de réaliser un jeu de plateau. Je me suis renseigné sur les bonnes pratiques de programmation et j’ai cherché une interface plus « jolie » que la console Windows pour afficher le plateau de mon jeu. Le résultat a semble-t-il bluffé le jury, j’ai eu une excellente note !"
+      },
+      {
+        "title": "IN’TECH, une pédagogie par projet qui laisse beaucoup de place à l’auto-formation",
+        "par": " Après le lycée, j’ai fait le choix d’intégrer <b>IN’TECH</b>. La pédagogie de l’école m’a beaucoup plu car chaque semestre, nous avions deux projets à réaliser en groupe, un technique et un transverse. Ces projets se réalisant sur une durée plutôt longue et étant très variés, j’ai eu besoin d’apprendre à trouver, par moi-même, les solutions à mes problèmes. Mes professeurs m’ont également conseillé lors de ma formation en questionnant nos choix et en nous aiguayant sur les bonnes pistes à suivre."
+      }
+    ],
+    "links": [0, 1, 3, 4],
+    "tech": false,
+    "years": null,
+    "projects": null
+  },
+  {
+    "name": "Orateur",
+    "id": 2,
+    "pars": [
+      {
+        "title": "Oraux à IN’TECH",
+        "par": "IN’TECH nous apprend tout au long de notre formation à prendre la parole en public. L’année est rythmée par plusieurs événements importants, chaque année nous devions présenter le résultat de nos projets devant les autres étudiants, les professeurs et lors des <b>Tech Days</b> (anciennement Forum PI), à des partenaires entreprises. J’ai pu développer mes compétences dans ce domaine lors de tous ces événements."
+      },
+      {
+        "title": "Présentations des travaux accomplies en entreprise",
+        "par": "Chez <b>Ketchapp</b>, nous avons pris la décision d’utiliser <b>Blazor</b>, une technologie très nouvelle de <b>Microsoft</b>, en production. J’ai présenté, avec mon maitre de stage, nos travaux lors de MeetUps devants mes pairs. C’est un exercice très intéressant, m’ayant permis de faire découvrir des technologies passionnantes à des professionnels. J’ai particulièrement apprécié expliquer nos erreurs, afin d’éviter que d’autres ne s’y confrontent dans le futur."
+      }
+    ],
+    "links": [2, 3, 4],
+    "tech": false,
+    "years": null,
+    "projects": null
+  },
+  {
+    "name": "Javascript",
+    "id": 3,
+    "pars": [
+      {
+        "title": "A IN’TECH",
+        "par": "Lors de mon cursus à IN’TECH, j’ai eu l’occasion de travailler sur l’ensemble des framework web, en <b>JavaScript</b> et en <b>TypeScript</b>. J’ai commencé par découvrir <b>Vue.js</b> en <b>JavaScript</b> en réalisant plusieurs projets avec cette technologie. J’ai découvert <b>TypeScript</b> en réalisant une application de chat textuel avec <b>Angular</b>. Et j’ai utilisé <b>React et React Native</b> pour réaliser un pokédex faisant appel à une API externe à la fois en web et sur mobile."
+      },
+      {
+        "title": "A l’INSEP",
+        "par": "Lors de mon stage et de mon alternance à l’INSEP, j’ai réalisé une application utilisant un front en <b>vue.js</b> avec <b>JavaScript</b>. J’ai aussi fait le choix d’utiliser la librairies <b>Vuetify</b> afin d’implémenter des composant <b>material design</b> au sein de l’application. J’ai également dû faire des composants en <b>javascript</b> pur pour réaliser un éditeur visuel, proche de <b>LucidChart</b>, afin d’aider les entraineurs des sportifs de haut niveau à illustrer leurs exercices."
+      }
+    ],
+    "links": [0, 1, 3, 4],
+    "tech": true,
+    "years": 3,
+    "projects": 4
+  },
+  {
+    "name": "C#",
+    "id": 4,
+    "pars": [
+      {
+        "title": "A IN’TECH",
+        "par": " Lors de mon cursus à IN’TECH, j’ai découvert Le <b>C#</b> en réalisant un jeu avec <b>MonoGame</b>, j’ai également réalisé deux applications web <b>Fusion</b> (permettant d’envoyer des SMS depuis son ordinateur) et <b>Bitcoin casino</b> (un casino utilisant le Bitcoin comme monnaie), elles ont toutes les deux étaient développées avec un backend <b>ASP NET CORE.</b>"
+      },
+      {
+        "title": "A l’INSEP",
+        "par": "Lors de mon stage et de mon alternance à l’INSEP, j’ai réalisé une application permettant aux entraineurs des sportifs de haut niveau de gérer leurs exercices ainsi que l’emploi du temps de leurs cours de sport et de faciliter le suivi des sportifs de haut niveau. Pour ce faire, j’ai réalisé une application en <b>WPF</b> et un backend en <b>ASP NET CORE</b> utilisant <b>Entity Framework</b>."
+      },
+      {
+        "title": "Chez Ketchapp",
+        "par": "Lors de mon alternance chez Ketchapp, j’ai travaillé sur une stack exclusivement en <b>.NET</b> avec un backend <b>ASP NET CORE</b> et un front en <b>Blazor</b>."
+      }
+    ],
+    "links": [1, 2, 3, 4],
+    "tech": true,
+    "years": 4,
+    "projects": 4
+  }
 ]

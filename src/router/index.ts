@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../components/Home.vue";
 import Projects from "../components/Projects.vue";
 import Skills from "../components/Skills.vue";
+import Timeline from "../components/Timeline.vue"
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
@@ -15,13 +16,19 @@ const routes: Array<RouteConfig> = [
     path: "/projects/:id",
     name: "Projects",
     component: Projects,
-    props: true,
+    props: true
   },
   {
     path: "/skills/:id",
     name: "Skills",
     component: Skills,
-    props: true,
+    props: true
+  },
+  {
+    path: "/timeline",
+    name: "timeline",
+    component: Timeline,
+    props: true
   },
 ];
 
